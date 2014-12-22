@@ -1,17 +1,40 @@
-# Bloc-Jams
+Bloc-Jams
+=================
 
-A Spotify type application using AngularJS's single page architecture  
+Application Link 
+----------------
+http://bloc-jams-testss.herokuapp.com/
 
-## Getting started
-* Install (if you don't have them):
-    * [Node.js](http://nodejs.org): `brew install node` on OS X
-    * [Brunch](http://brunch.io): `npm install -g brunch`
-    * [Bower](http://bower.io): `npm install -g bower`
-    * Brunch plugins and Bower dependencies: `npm install & bower install`.
-* Run:
-    * `brunch watch --server` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
-    * `brunch build --production` — builds minified project for production
-* Learn:
-    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-    * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Chaplin site](http://chaplinjs.org)
+What is Bloc-jams? 
+----------------
+Bloc Jams is a Spotify type application. This app allows the user a fluid user experience where they may interact with multiple views and view albums and play music. All of the buttons and scroll bars are interactive which allows the user to have the power. Turn on your speakers and play some music to relax the soul!
+
+Languages Used:
+---------------
+- HTML 5
+- CSS3/Sass
+- Had some jQuery, but switched over to AngularJs
+
+Installation Steps:
+-------------------
+
+Start by cloning the repository.
+```
+$git clone https://github.com/ilitvak/bloc-jams.git <Your directory name>
+```
+
+The project uses Grunt to run tasks; start by installing the Grunt Command Line Interface (`grunt-cli`) globally on your machine.
+
+```
+$ npm install -g grunt-cli
+```
+Once that's complete, install the remaining project dependencies by running
+
+```
+$ npm install
+```
+
+Starting the application
+```
+$ npm start
+```
