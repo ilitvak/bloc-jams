@@ -1,6 +1,6 @@
-# Brunch app
+# Bloc-Jams
 
-This is HTML5 application, built with [Brunch](http://brunch.io).
+A Spotify type application using AngularJS's single page architecture  
 
 ## Getting started
 * Install (if you don't have them):
