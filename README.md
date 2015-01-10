@@ -13,7 +13,7 @@ How does it work?
 -----------------
 Scroll through the landing page and view the random artwork that is presented. Afterword click on the Library button in the top right-hand side of the screen. It will take you to a different view instantly thanks to AngularJS and show you a myriad of albums. Click on a random album and play a song, but ensure that your volume is turned on. 
 
-Languages Used:
+Languages Used
 ---------------
 - [HTML 5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
@@ -23,7 +23,7 @@ Languages Used:
 
 
 
-Installation Steps:
+Installation Steps
 -------------------
 
 
