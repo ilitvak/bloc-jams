@@ -26,7 +26,7 @@ Languages Used
 Installation Steps
 -------------------
 
-
+You should already have [Node.js](https://www.npmjs.com/) installed before cloning the repository. 
 
 Start by cloning the repository.
 ```
