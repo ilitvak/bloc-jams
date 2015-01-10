@@ -7,7 +7,7 @@ http://bloc-jams-testss.herokuapp.com/
 
 What is Bloc-jams? 
 ------------------
-Bloc Jams is a music application. It allows the user to play music with interactive scroll bars and volume controls using the latest AngularJS technology.
+Bloc Jams is a music application. It allows the user to play music with interactive scroll bars and volume controls using the latest [AngularJS](https://angularjs.org/) technology.
 
 How does it work?
 -----------------
@@ -15,30 +15,49 @@ Scroll through the landing page and view the random artwork that is presented. A
 
 Languages Used:
 ---------------
-- HTML 5
-- CSS3/Sass
-- Had some jQuery, but switched over to AngularJs
+- [HTML 5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+- [Sass](http://sass-lang.com/)
+- Had some jQuery, but switched over to [AngularJS](https://angularjs.org/)
+
+
+
 
 Installation Steps:
 -------------------
 
+
+
 Start by cloning the repository.
 ```
-$git clone https://github.com/ilitvak/bloc-jams.git <Your directory name>
+$git clone https://github.com/ilitvak/bloc-jams.git 
 ```
 
-The project uses Grunt to run tasks; start by installing the Grunt Command Line Interface (`grunt-cli`) globally on your machine.
+This app uses [Grunt](http://gruntjs.com/) to run tasks.  Install the Grunt Command Line Interface (`grunt-cli`) locally on your machine.
 
 ```
 $ npm install -g grunt-cli
 ```
-Once that's complete, install the remaining project dependencies by running
+Once that's complete, install the remaining dependencies by running
 
 ```
 $ npm install
 ```
 
-Starting the application
+Running the Application
+------------
+Two tabs must be open in the terminal in order to run this application.
+
+In one tab, run
+
 ```
 $ npm start
 ```
+
+In the second tab, run
+
+```
+$ grunt
+```
+
+
