@@ -7,11 +7,18 @@ http://bloc-jams-testss.herokuapp.com/
 
 What is Bloc-jams? 
 ------------------
-Bloc Jams is a music application. It allows the user to play music with interactive scroll bars and volume controls using the latest [AngularJS](https://angularjs.org/) technology.
+Bloc Jams is a music application that uses [Node.js](https://www.npmjs.com/), [Express](http://expressjs.com/), and [Bower](http://bower.io/). It allows the user to play music with interactive scroll bars and volume controls using the latest [AngularJS](https://angularjs.org/) technology.
 
 How does it work?
 -----------------
 Scroll through the landing page and view the random artwork that is presented. Afterword click on the Library button in the top right-hand side of the screen. It will take you to a different view instantly thanks to AngularJS and show you a myriad of albums. Click on a random album and play a song, but ensure that your volume is turned on. 
+
+What are the Pacakage Managers Definitions
+------------------------------------------
+
+[Node.js](https://www.npmjs.com/) - The directory into which Node installs its app-specific packages.
+[Bower](http://bower.io/) -is a package manager for Javascript libraries that allows you to define, version, and retrieve your dependencies.
+
 
 Languages Used
 ---------------
@@ -26,23 +33,15 @@ Languages Used
 Installation Steps
 -------------------
 
-You should already have [Node.js](https://www.npmjs.com/) installed before cloning the repository. 
+You should already have [Node.js](https://www.npmjs.com/), and [Bower](http://bower.io/) installed before cloning. 
 
 Start by cloning the repository.
-```
-$git clone https://github.com/ilitvak/bloc-jams.git 
-```
 
-This app uses [Grunt](http://gruntjs.com/) to run tasks.  Install the Grunt Command Line Interface (`grunt-cli`) locally on your machine.
+`$ git clone https://github.com/ilitvak/bloc-jams.git`
 
-```
-$ npm install -g grunt-cli
-```
 Once that's complete, install the remaining dependencies by running
 
-```
-$ npm install
-```
+`$ npm install`
 
 Running the Application
 ------------
@@ -50,14 +49,23 @@ Two tabs must be open in the terminal in order to run this application.
 
 In one tab, run
 
-```
-$ npm start
-```
 
-In the second tab, run
+`$ npm start`
 
-```
-$ grunt
-```
+In another tab, 
+
+`Use this terminal for git commands`
+
+
+Screenshots
+-----------
+
+![Imgur](http://i.imgur.com/zPmhH9y.png)
+
+![Imgur](http://i.imgur.com/PQFWgsi.png)
+
+![Imgur](http://i.imgur.com/x5uZoTR.png)
+
+
 
 
