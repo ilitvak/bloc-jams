@@ -6,8 +6,12 @@ Application Link
 http://bloc-jams-testss.herokuapp.com/
 
 What is Bloc-jams? 
-----------------
-Bloc Jams is a Spotify type application. This app allows the user a fluid user experience where they may interact with multiple views and view albums and play music. All of the buttons and scroll bars are interactive which allows the user to have the power. Turn on your speakers and play some music to relax the soul!
+------------------
+Bloc Jams is a music application. It allows the user to play music with interactive scroll bars and volume controls using the latest AngularJS technology.
+
+How does it work?
+-----------------
+Scroll through the landing page and view the random artwork that is presented. Afterword click on the Library button in the top right-hand side of the screen. It will take you to a different view instantly thanks to AngularJS and show you a myriad of albums. Click on a random album and play a song, but ensure that your volume is turned on. 
 
 Languages Used:
 ---------------
