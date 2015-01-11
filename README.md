@@ -57,7 +57,7 @@ In another tab,
 
 `Use this terminal for git commands`
 
-The application runs on port 3000 - configured in the [`Gruntfile.js`]. To change the port, modify the number highlighted below
+The application runs on port 3000. To change the port, modify the number highlighted below
 
 ```js
 connect: {
